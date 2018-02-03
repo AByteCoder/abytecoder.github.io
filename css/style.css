@@ -280,6 +280,7 @@ body{
 }
 .header-image{
   position: relative;
+  display: inline-block;
 }
 .header-background{
   height: 350px;
@@ -306,6 +307,22 @@ body{
     margin-right: 10px;
     padding: 20px;
   }
+}
+.download-cv{
+  padding: 5px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.10),0 -1px 2px 0 rgba(0,0,0,0.1),1px 0px 2px 0 rgba(0,0,0,0.1),-1px 0px 2px 0 rgba(0,0,0,0.1);
+  font-size: 14px;
+  color: #FFF;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 25px;
+  background-color:#388E3C;
+  line-height: 25px;
+}
+.download-cv img{
+  width: 25px;
+  height: 25px;
 }
 .social-media{
   margin-left: 5px;
